@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #007f7f;
+  --white: #fafafa;
+  --dark: #2b3039;
+  --fontFamily: "Open Sans", sans-serif;
+  --bg: #272b34;
+  --text: #acadaf;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--bg);
+  color: var(--white);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}

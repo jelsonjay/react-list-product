@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  border-top: 1px solid var(--primary);
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+
+.footer P {
+  margin-top: 2rem;
+}
+
+.sociaIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.sociaIcons svg {
+  margin-top: 2rem;
+}
+
+.sociaIcons svg:hover {
+  color: var(--primary);
+}
