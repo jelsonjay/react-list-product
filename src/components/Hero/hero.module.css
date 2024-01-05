@@ -1,6 +1,6 @@
 .hero {
   height: 70dvh;
-  background: url("./assets/hero.jpg");
+  background: url("./public/images/slider-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
